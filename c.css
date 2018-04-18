@@ -1,0 +1,226 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+
+
+#logo{
+	margin-top: -9px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	height: 70px;
+	border-radius: 40px;
+	border:2px solid black;
+	float: left;
+}
+
+#logo: hover{
+	height: 600px;
+}
+#topbar{
+	overflow: visible;
+	position: fixed;
+	border-bottom: 3px black solid;
+	background: white;
+	opacity: 1;
+	width: 100%;
+	padding-top: 10px;
+	z-index: 5;
+}
+#topbar span{
+	display: inline-block;
+	padding-right:30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	}
+#topbar span a{
+	text-decoration: none;
+	color: black;
+	font-family:'Lora', serif; 
+	font-weight: normal;
+	font-size: 1.7rem;
+	border-left: 2px #CCCCCC solid;
+	height: 100px;
+	padding-left:  20px;
+}
+
+#topbar span a:hover{
+	font-weight: bolder;
+}
+
+.container{
+	display: block;
+	height: 600px;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: 'Lora', serif;
+}
+
+#aboutme{
+	color: white;
+	height: 480px;
+	background-image: url("https://hdwallsource.com/img/2014/4/free-background-wallpaper-22918-23554-hd-wallpapers.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+
+#aboutme p{
+	padding-top: 100px;
+}
+
+#info{
+	background: white;
+	height: 662px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#info h3{
+	padding-top: 150px;
+}
+
+#education{
+	height: 40rem;
+	font-family: 'Lato', sans-serif;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+#skills{
+	margin-top: -100px;
+	height: 662px;
+	padding-top: 100px;
+	}
+
+#comm{
+	font-size: 15px;
+	color: black;
+
+}
+
+#skills h3{
+	font-family: 'East Sea Dokdo', cursive;
+	width: 100%;
+	transform: translate(-50%,-50%);
+	display: inline;
+	letter-spacing: 0.1em;
+	font-size: 4em;
+	text-shadow: 0 5px 2px rgba(0,0,0, .2);
+}
+
+#skills h3:hover:before{
+	opacity: 0.4;
+	content: '';
+	position: absolute;
+	top:100;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background: url("http://moziru.com/images/drawn-skyline-building-outline-15.jpg");
+	z-index: -1;
+	animation: animateBefore 10s linear infinite;
+	transition : 0.5s;
+}
+
+#skills p{
+	font-size: 1.2em;
+}
+
+@keyframes animateBefore{
+	0%{
+		background-position: 0%;
+	}
+	50%{
+		background-position: 50%;
+	}
+	100%{
+		background-position: 100%;
+	}
+}
+
+#contactme{
+	background: orange;
+	height: 100px;
+}
+
+#contactme p{
+	font-family: 'Life Savers', cursive;
+	position: absolute;
+	color: orange;
+	padding-top: 200px;
+	padding-left: 250px;
+	z-index: 2;
+}
+
+#contactme p a{
+	text-decoration: none;
+	color: orange;
+}
+
+#contactme p a:hover{
+	color: 	#FF7F00;
+}
+
+.con{
+	font-family: 'Life Savers', cursive;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#canvas1{
+	height: 500px;
+width: 100%;
+padding-top: 100px;
+margin-bottom: -8px;
+z-index: 1;
+}
+
+#canvas2{
+	margin-top: 80px;
+	margin-left: -100px;
+	padding-right: 50px;
+	position: absolute;
+	width:30%;
+	float: right;
+	height: 500px;
+}
+#info-left{
+	padding-left: 10px;
+	width: 40%;
+	float: left;
+	text-align: left;
+	font-size: 34px;
+	font-weight: bolder;
+}
+#education h3{
+	font-size: 80px;
+	font-weight: bold;
+	background: #BB1919;
+	text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
